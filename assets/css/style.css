@@ -549,14 +549,14 @@
         transition: none !important;
       }
     }
-  /* Catálogo com fundo branco */
+  /* Catálogo: enquadramento original com fundo branco */
 .card {
   background: #ffffff;
-  border: 1px solid #e1e7e9;
+  border: none;
 }
 
 .card img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card::after {
@@ -564,11 +564,17 @@
 }
 
 .card span {
-  inset: auto 0 0;
-  min-height: 76px;
-  padding: 16px 12px;
-  background: #ffffff;
-  color: #153f4d;
-  font-size: clamp(22px, 2.5vw, 32px);
-  text-shadow: none;
+  inset: 0;
+  min-height: 0;
+  padding: 12px;
+  background: transparent;
+  color: #ffffff;
+  font-size: clamp(24px, 3vw, 40px);
+  text-shadow: 0 2px 9px rgba(0, 0, 0, 0.65);
+}
+
+@media (max-width: 500px) {
+  .card span {
+    font-size: 23px;
+  }
 }
