@@ -723,3 +723,5 @@ h2{font-family:'Arial Narrow',Arial,sans-serif;color:#153f4d;font-size:clamp(30p
 
     }
 
+
+.breadcrumb{padding-top:28px;padding-bottom:16px;font-size:14px;color:#5c6b70}.breadcrumb a{color:#153f4d}.category-nav{padding-top:24px;padding-bottom:48px;display:flex;gap:14px;flex-wrap:wrap}.category-nav h2{width:100%;font-size:26px}.category-nav a{padding:12px 16px;background:#edf5f6;color:#153f4d;text-decoration:none}.category-nav a[aria-current]{background:#153f4d;color:white}

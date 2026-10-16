@@ -1,0 +1,395 @@
+
+
+/* =========================================================
+   CONFIGURAÇÕES GERAIS
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.product-robusta {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 45px 25px 60px;
+}
+
+
+/* =========================================================
+   CABEÇALHO
+========================================================= */
+
+.product-hero h1 {
+    margin: 0;
+    color: #173f4b;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.product-hero h2 {
+    margin: 5px 0 15px;
+    color: #173f4b;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product-hero p {
+    max-width: 800px;
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+/* =========================================================
+   TÍTULOS
+========================================================= */
+
+.product-titulo {
+    color: #173f4b;
+    font-size: 27px;
+    font-weight: 800;
+    margin: 45px 0 22px;
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   BLOCOS PRINCIPAIS
+   MESMA ESTRUTURA PARA AS DUAS IMAGENS
+========================================================= */
+
+.product-bloco-produto {
+    display: grid;
+    grid-template-columns: 48% 52%;
+    align-items: center;
+    margin-top: 35px;
+    padding: 28px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+
+/* =========================================================
+   IMAGENS - TAMANHO PADRONIZADO
+========================================================= */
+
+.product-imagem-produto {
+    width: 100%;
+    height: 360px;
+    background: #f7f7f7;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-imagem-produto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
+    display: block;
+}
+
+
+/* =========================================================
+   TEXTO DOS BLOCOS
+========================================================= */
+
+.product-texto-produto {
+    padding-left: 32px;
+}
+
+.product-texto-produto h3 {
+    margin: 0 0 15px;
+    color: #173f4b;
+    font-size: 25px;
+}
+
+.product-texto-produto p {
+    margin: 0 0 18px;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.product-texto-produto ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #333;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   DESTAQUES
+========================================================= */
+
+.product-destaques {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.product-destaque {
+    background: #f2f7f7;
+    border-radius: 8px;
+    padding: 22px;
+    border-top: 4px solid #18aeb5;
+}
+
+.product-destaque strong {
+    display: block;
+    color: #173f4b;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.product-destaque span {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   ESPECIFICAÇÕES
+========================================================= */
+
+.product-spec {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 11px 0;
+    line-height: 1.5;
+}
+
+.product-spec:last-child {
+    border-bottom: none;
+}
+
+.product-spec strong {
+    color: #173f4b;
+}
+
+
+/* =========================================================
+   APLICAÇÕES
+========================================================= */
+
+.product-aplicacoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.product-aplicacao {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 23px;
+    background: #ffffff;
+}
+
+.product-aplicacao h3 {
+    color: #173f4b;
+    margin: 0 0 9px;
+    font-size: 19px;
+}
+
+.product-aplicacao p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   TABELA DE GRÃOS
+========================================================= */
+
+.product-tabela-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    min-width: 780px;
+    border-collapse: collapse;
+}
+
+th {
+    background: #173f4b;
+    color: #ffffff;
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+td {
+    padding: 15px 14px;
+    border-bottom: 1px solid #dddddd;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background: #f5f6f6;
+}
+
+.product-tipo-grao {
+    color: #173f4b;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   GRANULOMETRIAS
+========================================================= */
+
+.product-graos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-grao {
+    min-width: 66px;
+    padding: 10px 13px;
+    background: #173f4b;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* =========================================================
+   DIFERENCIAIS
+========================================================= */
+
+.product-tecnicas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.product-tecnica {
+    padding: 22px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+}
+
+.product-tecnica h3 {
+    margin: 0 0 9px;
+    color: #173f4b;
+    font-size: 18px;
+}
+
+.product-tecnica p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   AVISO FINAL
+========================================================= */
+
+.product-aviso {
+    margin-top: 40px;
+    padding: 22px 25px;
+    background: #f2f7f7;
+    border-left: 5px solid #18aeb5;
+    line-height: 1.6;
+}
+
+.product-aviso strong {
+    color: #173f4b;
+}
+
+
+/* =========================================================
+   RESPONSIVO
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .product-robusta {
+        padding: 30px 16px 45px;
+    }
+
+    .product-hero h1 {
+        font-size: 36px;
+    }
+
+    .product-hero h2 {
+        font-size: 17px;
+    }
+
+    .product-hero p {
+        font-size: 15px;
+    }
+
+    .product-titulo {
+        font-size: 23px;
+        margin-top: 38px;
+    }
+
+    .product-bloco-produto {
+        grid-template-columns: 1fr;
+        padding: 18px;
+    }
+
+    .product-imagem-produto {
+        height: 300px;
+    }
+
+    .product-texto-produto {
+        padding-left: 0;
+        padding-top: 24px;
+    }
+
+    .product-destaques {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-aplicacoes {
+        grid-template-columns: 1fr;
+    }
+
+    .product-tecnicas {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .product-destaques {
+        grid-template-columns: 1fr;
+    }
+
+    .product-imagem-produto {
+        height: 270px;
+    }
+
+    .product-spec {
+        grid-template-columns: 115px 1fr;
+    }
+
+}
+

@@ -1,0 +1,388 @@
+
+
+/* =========================================================
+   CONFIGURAÇÕES GERAIS
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.product-robusta {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 45px 25px 60px;
+}
+
+
+/* =========================================================
+   CABEÇALHO
+========================================================= */
+
+.product-hero h1 {
+    margin: 0;
+    color: #173f4b;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.product-hero h2 {
+    margin: 5px 0 15px;
+    color: #173f4b;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product-hero p {
+    max-width: 780px;
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+/* =========================================================
+   TÍTULOS
+========================================================= */
+
+.product-titulo {
+    color: #173f4b;
+    font-size: 27px;
+    font-weight: 800;
+    margin: 45px 0 22px;
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   APRESENTAÇÃO
+========================================================= */
+
+.product-apresentacao {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 32px;
+    align-items: center;
+    margin-top: 35px;
+    padding: 28px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.product-apresentacao-img {
+    width: 100%;
+    height: 350px;
+    background: #f7f7f7;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-apresentacao-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
+    display: block;
+}
+
+.product-apresentacao-texto h3 {
+    margin: 0 0 15px;
+    color: #173f4b;
+    font-size: 25px;
+}
+
+.product-apresentacao-texto p {
+    margin: 0 0 18px;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.product-apresentacao-texto ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #333;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   DESTAQUES
+========================================================= */
+
+.product-destaques {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.product-destaque {
+    background: #f2f7f7;
+    border-radius: 8px;
+    padding: 22px;
+    border-top: 4px solid #18aeb5;
+}
+
+.product-destaque strong {
+    display: block;
+    color: #173f4b;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.product-destaque span {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   TABELA
+========================================================= */
+
+.product-tabela-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    min-width: 960px;
+    border-collapse: collapse;
+}
+
+th {
+    background: #173f4b;
+    color: #ffffff;
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+td {
+    padding: 15px 14px;
+    border-bottom: 1px solid #dddddd;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background: #f5f6f6;
+}
+
+
+/* =========================================================
+   IMAGENS DA TABELA
+========================================================= */
+
+.product-fita-img-box {
+    width: 155px;
+    height: 135px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product-fita-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5px;
+    display: block;
+}
+
+
+/* =========================================================
+   IDENTIFICAÇÃO DAS FITAS
+========================================================= */
+
+.product-nome-fita {
+    color: #173f4b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product-cor {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 4px 9px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.product-cor-vermelha {
+    background: #d82943;
+}
+
+.product-cor-branca {
+    background: #eeeeee;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+.product-cor-azul {
+    background: #0064b5;
+}
+
+.product-recomendacao {
+    font-weight: 700;
+    color: #173f4b;
+}
+
+
+/* =========================================================
+   COMO ESCOLHER
+========================================================= */
+
+.product-escolha {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.product-escolha-card {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 24px;
+    background: #ffffff;
+}
+
+.product-escolha-card h3 {
+    margin: 0 0 10px;
+    color: #173f4b;
+    font-size: 20px;
+}
+
+.product-escolha-card p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   INFORMAÇÃO TÉCNICA
+========================================================= */
+
+.product-tecnico {
+    margin-top: 22px;
+    padding: 24px 26px;
+    background: #f5f6f6;
+    border-radius: 8px;
+}
+
+.product-tecnico h3 {
+    margin: 0 0 12px;
+    color: #173f4b;
+    font-size: 20px;
+}
+
+.product-tecnico p {
+    margin: 0;
+    color: #555;
+    line-height: 1.65;
+}
+
+
+/* =========================================================
+   AVISO FINAL
+========================================================= */
+
+.product-aviso {
+    margin-top: 40px;
+    padding: 22px 25px;
+    background: #f2f7f7;
+    border-left: 5px solid #18aeb5;
+    line-height: 1.6;
+}
+
+.product-aviso strong {
+    color: #173f4b;
+}
+
+
+/* =========================================================
+   RESPONSIVO
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .product-robusta {
+        padding: 30px 16px 45px;
+    }
+
+    .product-hero h1 {
+        font-size: 36px;
+    }
+
+    .product-hero h2 {
+        font-size: 17px;
+    }
+
+    .product-hero p {
+        font-size: 15px;
+    }
+
+    .product-titulo {
+        font-size: 23px;
+        margin-top: 38px;
+    }
+
+    .product-apresentacao {
+        grid-template-columns: 1fr;
+        padding: 18px;
+    }
+
+    .product-apresentacao-img {
+        height: 280px;
+    }
+
+    .product-destaques {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-escolha {
+        grid-template-columns: 1fr;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .product-fita-img-box {
+        width: 130px;
+        height: 115px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .product-destaques {
+        grid-template-columns: 1fr;
+    }
+
+}
+
