@@ -1,0 +1,34 @@
+{
+  "fontes": {
+    "apresentacao": "https://drive.google.com/thumbnail?id=1-HnlMt_ykwIaazcZGWn7OMjW9-Lqp-gn&sz=w1600",
+    "cintas": "https://drive.google.com/thumbnail?id=1QmgB_62p2RaoNMurM5w0d7CNZ-pFVxXV&sz=w1600",
+    "rodas": "https://drive.google.com/thumbnail?id=1Rx9vZV2tfRILrZQOCNxg0LFZvtFNT7mq&sz=w1600",
+    "rolos": "https://drive.google.com/thumbnail?id=1A0w7bBbMsXS0rJyOppW3DuVg1TEUoNoh&sz=w1600",
+    "flap": "https://drive.google.com/thumbnail?id=1TG7hGgaMfaG1E0pD3qrTuJ1QTVcoBTXv&sz=w1600",
+    "rokit": "https://drive.google.com/thumbnail?id=1NlNpFwZ4UO4XGBkmGmhRpz1CDexQDcpV&sz=w1600",
+    "mylar": "https://drive.google.com/thumbnail?id=1xLVPCLrYv2WBC4JNjuphn0a6RObcxlnA&sz=w1600",
+    "producao": "https://drive.google.com/thumbnail?id=1kWg2Kvlnt07c42HuErjKeFULE9HTBw7M&sz=w1600",
+    "whatsapp": "https://drive.google.com/thumbnail?id=1vJ_ezBA4XqQnkmOhP5y4KVsedsc6Nn9N&sz=w1600",
+    "mercadolivre": "https://drive.google.com/thumbnail?id=18Pzox_3Jv2NQcRFjsHebWVlPrFU-tPGD&sz=w1600",
+    "shopee": "https://drive.google.com/thumbnail?id=11TDL6BcqZSY_29b4IlcCaknhsV5m7Cy9&sz=w1600",
+    "tiktok": "https://drive.google.com/thumbnail?id=1J1ek-l4L0wIelVl3uyGOcXY5qAtnfW-m&sz=w1600",
+    "banner": "https://img1.wsimg.com/isteam/ip/56954faa-7b64-4395-a1da-3da8aaa08113/ChatGPT%20Image%2023%20de%20set.%20de%202026%2C%2010_37_44.png/:/rs=w:1920,m",
+    "logo": "https://img1.wsimg.com/isteam/ip/56954faa-7b64-4395-a1da-3da8aaa08113/logo%20final.png/:/rs=h:200,cg:true,m/qt=q:95"
+  },
+  "arquivos": {
+    "apresentacao": "assets/imagens/apresentacao.png",
+    "cintas": "assets/imagens/cintas.png",
+    "rodas": "assets/imagens/rodas.png",
+    "rolos": "assets/imagens/rolos.png",
+    "flap": "assets/imagens/flap.png",
+    "rokit": "assets/imagens/rokit.png",
+    "mylar": "assets/imagens/mylar.png",
+    "producao": "assets/imagens/producao.png",
+    "whatsapp": "assets/imagens/whatsapp.png",
+    "mercadolivre": "assets/imagens/mercadolivre.png",
+    "shopee": "assets/imagens/shopee.png",
+    "tiktok": "assets/imagens/tiktok.png",
+    "banner": "assets/imagens/banner.jpg",
+    "logo": "assets/imagens/logo.jpg"
+  }
+}
