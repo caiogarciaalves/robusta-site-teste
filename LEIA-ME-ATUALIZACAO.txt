@@ -1,0 +1,7 @@
+ATUALIZAÇÃO V9 — CABEÇALHO DUAS FAIXAS
+Extraia o ZIP e envie TODO o conteúdo para a raiz do repositório robusta-site-teste, substituindo os arquivos existentes. Não envie a pasta externa nem o ZIP.
+Menu: Abrasivos, Automações, Marcas, Blog, Distribuidores, Catálogo, Mais > E-commerce.
+Distribuidores: página de contato para revenda; conteúdo institucional definitivo ainda não foi fornecido.
+E-commerce: página independente inspirada em Linktree.
+Logo: usa o endereço público do Drive fornecido. Se o Drive não responder, exibe a logo anterior como alternativa. Para independência do Drive, substitua a imagem por arquivo local posteriormente.
+As páginas continuam em modo de teste, sem indexação. Nenhum DNS foi alterado.
