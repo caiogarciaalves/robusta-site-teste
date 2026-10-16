@@ -61,3 +61,9 @@ Para atualizar, extraia o ZIP v3 e envie todo o conteúdo na raiz do mesmo repos
 Nova rota: /marcas/. Conteúdo preservado do HTML enviado, incluindo banner, carrossel de logos e seções Rockwell Automation, Mitsubishi Electric e Altus. Cabeçalho e rodapé compartilhados e link Marcas adicionados em todas as páginas. Imagens locais e CSS isolado para esta página. Carrossel preserva controles, pausa ao foco/mouse e respeita preferência de movimento reduzido. Relações comerciais e informações de produtos são as fornecidas no HTML, sem verificação externa.
 
 Atualizar enviando todo o conteúdo extraído do ZIP v4 na raiz do mesmo repositório. Conferência visual e interação do carrossel no navegador pendentes após publicação.
+
+## Atualização v5 — Blog e artigos
+
+Rotas: /blog/, /915x100/ e /686x50/. Cards do Blog apontam para os artigos locais; Todas as postagens retorna a /blog/. Link Blog inserido no menu e rodapé de todas as páginas. Conteúdo e datas dos artigos preservados conforme arquivos enviados. Informações técnicas e comerciais não passaram por revisão externa. CSS exclusivo de cada artigo para preservar seus layouts e evitar conflitos. Imagens locais.
+
+Envie o conteúdo extraído do ZIP v5 na raiz do repositório existente. A configuração do Pages e o domínio permanecem iguais. Conferência visual no navegador pendente após publicação.
