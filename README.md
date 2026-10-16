@@ -71,3 +71,11 @@ Envie o conteúdo extraído do ZIP v5 na raiz do repositório existente. A confi
 ## Atualização v6 — Catálogo completo
 
 Rota /catalogo/. Reúne os seis arquivos enviados, na ordem: cintas, rodas PG, rolos, fitas Mylar, disco Rokit SA331 e canais. Índice interno, imagens locais, cabeçalho e rodapé compartilhados. Estilos isolados por seção para evitar conflito entre blocos. Discos Flap não incluído neste conteúdo porque não veio nestes arquivos; sua página separada permanece. Informações técnicas preservadas do material fornecido, sem verificação externa. Upload: enviar todo o conteúdo extraído na raiz do repositório e confirmar Commit changes. Conferência visual pendente após publicação.
+
+## Correção v7 — inícios das seções do Catálogo
+
+Classes dos seis blocos isoladas das classes compartilhadas do site. Cinco introduções de produtos em fundo branco, sem altura mínima ou sobreposição escura. Títulos principais separados dos subtítulos. Demais páginas preservadas. CSS do catálogo com parâmetro v=7 para atualização de cache.
+
+## Atualização v8 — E-commerce
+
+Rota /e-commerce/. Conteúdo dos canais preservado do HTML enviado, com título E-commerce, cabeçalho e rodapé compartilhados. Links para lojas e WhatsApp continuam externos; Site oficial retorna à página principal do teste. Imagens locais. Classes CSS isoladas. Mantém correção v7 do Catálogo. Envie todo o conteúdo extraído na raiz do repositório. Conferência visual pendente após publicação.
