@@ -67,3 +67,7 @@ Atualizar enviando todo o conteúdo extraído do ZIP v4 na raiz do mesmo reposit
 Rotas: /blog/, /915x100/ e /686x50/. Cards do Blog apontam para os artigos locais; Todas as postagens retorna a /blog/. Link Blog inserido no menu e rodapé de todas as páginas. Conteúdo e datas dos artigos preservados conforme arquivos enviados. Informações técnicas e comerciais não passaram por revisão externa. CSS exclusivo de cada artigo para preservar seus layouts e evitar conflitos. Imagens locais.
 
 Envie o conteúdo extraído do ZIP v5 na raiz do repositório existente. A configuração do Pages e o domínio permanecem iguais. Conferência visual no navegador pendente após publicação.
+
+## Atualização v6 — Catálogo completo
+
+Rota /catalogo/. Reúne os seis arquivos enviados, na ordem: cintas, rodas PG, rolos, fitas Mylar, disco Rokit SA331 e canais. Índice interno, imagens locais, cabeçalho e rodapé compartilhados. Estilos isolados por seção para evitar conflito entre blocos. Discos Flap não incluído neste conteúdo porque não veio nestes arquivos; sua página separada permanece. Informações técnicas preservadas do material fornecido, sem verificação externa. Upload: enviar todo o conteúdo extraído na raiz do repositório e confirmar Commit changes. Conferência visual pendente após publicação.
