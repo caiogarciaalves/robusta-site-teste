@@ -47,3 +47,11 @@ Este é um ambiente de teste: noindex,nofollow está presente. Não há CNAME ou
 - assets/imagens/: imagens locais.
 
 Para alterar o conteúdo da principal, atualizar index.html e abrasivos/index.html. Para alterar uma categoria, editar seu index.html e, quando necessário, seu CSS específico.
+
+## Atualização v3 — Automações
+
+Nova página: https://caiogarciaalves.github.io/robusta-site-teste/automacoes/
+
+Conteúdo preservado do HTML enviado: serviços, história, contato, redes sociais e horários. Cabeçalho e rodapé compartilhados adicionados, com link Automações em todas as páginas. O formulário abre o WhatsApp com a mensagem preenchida; o visitante precisa confirmar o envio no WhatsApp. Não há envio de email nem banco de dados. Imagens copiadas para o projeto.
+
+Para atualizar, extraia o ZIP v3 e envie todo o conteúdo na raiz do mesmo repositório, substituindo os arquivos existentes. Mantenha a configuração do Pages e o domínio como estão.
