@@ -55,3 +55,9 @@ Nova página: https://caiogarciaalves.github.io/robusta-site-teste/automacoes/
 Conteúdo preservado do HTML enviado: serviços, história, contato, redes sociais e horários. Cabeçalho e rodapé compartilhados adicionados, com link Automações em todas as páginas. O formulário abre o WhatsApp com a mensagem preenchida; o visitante precisa confirmar o envio no WhatsApp. Não há envio de email nem banco de dados. Imagens copiadas para o projeto.
 
 Para atualizar, extraia o ZIP v3 e envie todo o conteúdo na raiz do mesmo repositório, substituindo os arquivos existentes. Mantenha a configuração do Pages e o domínio como estão.
+
+## Atualização v4 — Marcas
+
+Nova rota: /marcas/. Conteúdo preservado do HTML enviado, incluindo banner, carrossel de logos e seções Rockwell Automation, Mitsubishi Electric e Altus. Cabeçalho e rodapé compartilhados e link Marcas adicionados em todas as páginas. Imagens locais e CSS isolado para esta página. Carrossel preserva controles, pausa ao foco/mouse e respeita preferência de movimento reduzido. Relações comerciais e informações de produtos são as fornecidas no HTML, sem verificação externa.
+
+Atualizar enviando todo o conteúdo extraído do ZIP v4 na raiz do mesmo repositório. Conferência visual e interação do carrossel no navegador pendentes após publicação.
