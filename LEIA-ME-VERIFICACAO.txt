@@ -1,0 +1,28 @@
+ROBUSTA — VERIFICAÇÃO DO GOOGLE SEARCH CONSOLE
+
+O Google exige comprovação de propriedade antes de liberar os relatórios do site.
+Este pacote contém o arquivo HTML ORIGINAL baixado na tela de verificação da propriedade https://robustaautomacoes.com/.
+
+COMO PUBLICAR NO GITHUB
+1. Extraia o ZIP.
+2. Abra a raiz do repositório do site, onde está o index.html principal.
+3. Envie apenas googled2b672f28a1c64af.html diretamente para a raiz.
+4. Não renomeie o arquivo e não altere seu conteúdo.
+5. Confirme as alterações e aguarde o GitHub Pages terminar a publicação.
+6. Avise no chat quando concluir. A próxima etapa será conferir o arquivo online e clicar em Verificar no Search Console, na propriedade da Robusta.
+
+ENDEREÇO QUE DEVE ABRIR APÓS A PUBLICAÇÃO
+https://robustaautomacoes.com/googled2b672f28a1c64af.html
+
+A página deve exibir a mensagem de google-site-verification fornecida pelo Google.
+Não remova esse arquivo após a verificação: o Google informa que ele deve permanecer no site para manter a propriedade verificada.
+
+Este pacote não contém index.html, não substitui páginas, não muda DNS nem interfere no Zoho Mail.
+O robots.txt, o sitemap.xml e a indexação já publicados permanecem como estão.
+
+SITUAÇÃO NESTA ETAPA
+- Login da conta Google confirmado.
+- Propriedade de prefixo de URL https://robustaautomacoes.com/ preparada.
+- Verificação de propriedade ainda pendente da publicação deste arquivo.
+- Sitemap ainda não enviado pelo painel nesta sessão.
+- Relatórios e Inspeção de URL ainda não consultados: dependem da verificação.
