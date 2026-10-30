@@ -1,0 +1,48 @@
+ROBUSTA — DADOS LEGAIS NO RODAPÉ (PONTO 19)
+
+COMO PUBLICAR
+1. Faça uma cópia de segurança do repositório antes de atualizar.
+2. Extraia o ZIP no computador.
+3. Envie o conteúdo extraído à raiz do repositório do site, preservando
+   exatamente a estrutura das pastas. Mescle as pastas e substitua somente
+   os arquivos correspondentes. Não apague as pastas existentes.
+4. O index.html solto na raiz do ZIP corresponde à raiz do site.
+   Cada outro index.html deve ficar DENTRO da sua respectiva subpasta.
+   Não mova os index.html das subpastas para a raiz.
+5. Envie também assets/css/dados-empresa.css. As páginas dependem desse
+   novo arquivo para apresentar o bloco de identificação.
+6. Não envie o ZIP inteiro ao GitHub. Este LEIA-ME não precisa ser publicado.
+7. Aguarde a publicação do GitHub Pages e atualize o navegador com Ctrl+F5.
+
+CONTEÚDO DO PACOTE
+- 20 páginas HTML atualizadas a partir da versão publicada em 30/10/2026.
+- assets/css/dados-empresa.css (novo).
+- Este arquivo de instruções.
+
+ALTERAÇÕES
+- Razão social, CNPJ, endereço completo e WhatsApp em todos os rodapés,
+  incluindo E-commerce, Mapa do Pedido e as páginas legais.
+- Correção do CEP incompleto no contato em /automacoes/ e na raiz:
+  de 17033 para 17033-340.
+- Os demais textos, imagens, links existentes e scripts foram preservados.
+
+DADOS UTILIZADOS, CONFORME INFORMADOS PELA EMPRESA
+Robusta Automações LTDA
+CNPJ: 36.655.188/0001-53
+Rua Marechal Deodoro, 6-60 — Parque Hipódromo
+Bauru/SP — CEP 17033-340
+WhatsApp: (14) 99130-7050
+
+VERIFICAÇÃO DEPOIS DE PUBLICAR
+- Confira a identificação no rodapé de uma página institucional, do
+  E-commerce e do Mapa do Pedido, no computador e no celular.
+- Confira o CEP no bloco de contato de /automacoes/.
+- Confira se continuam acessíveis Privacidade, Termos e Trocas.
+
+ESCOPO
+Este pacote contém somente os ajustes aprovados do ponto 19.
+Os pontos 11 a 18 continuam pendentes; não houve restauração da capa,
+alteração de contraste, imagens, menus ou textos comerciais.
+A raiz mantém o conteúdo que estava publicado na captura desta atualização.
+Nenhuma configuração de domínio, DNS, e-mail, rastreamento ou backup mudou.
+Os textos legais existentes mantêm o aviso de rascunho para revisão jurídica.

@@ -1,0 +1,8 @@
+/* Identificação da empresa no rodapé; estilos limitados ao novo bloco. */
+.rb-company-info{margin:24px 0 0;padding:20px 0 0;border-top:1px solid currentColor;font-family:Arial,Helvetica,sans-serif;color:inherit;overflow-wrap:anywhere}
+.rb-company-info p,.rb-company-info address{margin:0 0 8px;font-size:14px;line-height:1.7}
+.rb-company-info address{font-style:normal}
+.rb-company-info a{display:inline;color:inherit;text-decoration:underline;text-underline-offset:3px}
+.rb-company-info a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.privacy-hub-footer .rb-company-info{max-width:700px;margin:24px auto 0;border-top-color:#c3d2d5}
+@media(max-width:600px){.rb-company-info p,.rb-company-info address{font-size:14px}.rb-company-info{padding-top:16px}}
