@@ -1,0 +1,69 @@
+ROBUSTA — INDEXAÇÃO, ROBOTS.TXT E SITEMAP.XML
+
+O QUE MUDA
+1. A meta robots de 21 páginas comerciais e de conteúdo passa de noindex,nofollow para index,follow.
+2. O robots.txt permite o rastreamento geral e permite explicitamente o OAI-SearchBot, usado na busca do ChatGPT.
+3. O sitemap.xml lista as mesmas 21 URLs, incluindo os cinco artigos novos.
+
+O conteúdo visível, as imagens, as tabelas, os formulários, os links, os menus, o rodapé, os scripts e os estilos permanecem exatamente como estavam nas páginas publicadas capturadas para este pacote.
+Não há alteração de DNS, domínio, e-mail Zoho, Analytics ou rastreadores.
+O Mapa do Pedido e as três páginas legais permanecem acessíveis pelos links, com a configuração noindex,nofollow anterior. Elas não foram incluídas no sitemap nem neste ZIP.
+Não há regra específica para GPTBot: a configuração anterior de rastreamento desse agente não foi alterada. OAI-SearchBot é busca, GPTBot é outro agente relacionado a treinamento. A permissão geral não impede o GPTBot.
+
+COMO ATUALIZAR NO GITHUB
+1. Extraia o ZIP.
+2. Abra a RAIZ do repositório do site, onde ficam as pastas assets, blog e abrasivos.
+3. Envie os arquivos e pastas deste pacote, preservando a estrutura. Mescle as pastas; não apague as existentes.
+4. robots.txt e sitemap.xml devem ficar diretamente na raiz, ao lado do index.html principal.
+5. Cada index.html de subpasta deve permanecer dentro dela. Não mova nenhum deles para a raiz.
+6. O index.html que já está NA RAIZ deste ZIP é uma cópia da página inicial publicada, com apenas a meta robots alterada. Ele não foi copiado de outra subpasta para substituir o conteúdo da home.
+7. Confirme as alterações no GitHub e aguarde o GitHub Pages publicar a nova versão.
+
+COMO CONFERIR APÓS PUBLICAR
+- Abra https://robustaautomacoes.com/robots.txt e confira os grupos User-agent: * e User-agent: OAI-SearchBot, ambos com Allow: /.
+- Abra https://robustaautomacoes.com/sitemap.xml e confira a lista com 21 endereços.
+- Na página inicial, no blog e em um artigo, use Exibir código-fonte e procure name="robots". O conteúdo deve ser index,follow.
+- Confira também se todos os artigos continuam aparecendo no blog.
+- O Google e os serviços de busca precisam rastrear novamente as páginas. A mudança não garante inclusão, posição ou recomendação.
+
+PRÓXIMA ETAPA — GOOGLE SEARCH CONSOLE
+1. Acesse https://search.google.com/search-console/ com a conta Google que você usará para administrar o site.
+2. Se já houver uma propriedade verificada para o domínio, selecione-a.
+3. Caso ainda não haja, uma opção é criar uma propriedade de Prefixo do URL para https://robustaautomacoes.com/ e escolher a verificação por arquivo HTML.
+4. Baixe o arquivo de verificação fornecido pelo Google e mantenha o nome e o conteúdo originais. Envie-o à raiz do repositório e aguarde a publicação antes de clicar em Verificar. Nenhum arquivo de verificação foi inventado ou incluído neste ZIP.
+5. Se escolher a propriedade Domínio, siga a verificação TXT indicada pelo Google no seu provedor DNS. Não exclua nem modifique os registros MX, SPF, DKIM ou DMARC do Zoho Mail.
+6. Depois da verificação, abra Sitemaps e envie https://robustaautomacoes.com/sitemap.xml.
+7. Use Inspeção de URL para testar a página inicial, o blog e um artigo. Confira se o teste ao vivo permite a indexação e, se disponível, solicite indexação.
+8. Acompanhe os motivos no relatório de indexação de páginas. Um sitemap enviado com sucesso não significa que todas as páginas já foram indexadas.
+
+ESCOPO E OBSERVAÇÃO DO CONTEÚDO ATUAL
+A página inicial publicada utiliza atualmente o mesmo conteúdo principal da página de Automações. Este pacote preserva essa situação e não restaura nem redesenha a home. O sitemap não resolve essa duplicação; os buscadores podem escolher uma única URL representativa para esse conteúdo.
+As páginas legais ainda exibem aviso de rascunho para revisão jurídica; este pacote não altera esses textos.
+
+FONTES TÉCNICAS
+- https://developers.openai.com/api/docs/bots
+- https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
+- https://developers.google.com/search/docs/crawling-indexing/block-indexing
+
+PÁGINAS LIBERADAS
+https://robustaautomacoes.com/
+https://robustaautomacoes.com/686x50/
+https://robustaautomacoes.com/915x100/
+https://robustaautomacoes.com/abrasivos/
+https://robustaautomacoes.com/automacoes/
+https://robustaautomacoes.com/blog/
+https://robustaautomacoes.com/catalogo/
+https://robustaautomacoes.com/cinta-oxido-de-aluminio-ou-zirconio/
+https://robustaautomacoes.com/cintas-de-lixa/
+https://robustaautomacoes.com/como-medir-cinta-de-lixa/
+https://robustaautomacoes.com/disco-rokit/
+https://robustaautomacoes.com/discos-flap/
+https://robustaautomacoes.com/distribuidores/
+https://robustaautomacoes.com/e-commerce/
+https://robustaautomacoes.com/encomendar-cinta-de-lixa-sob-medida/
+https://robustaautomacoes.com/fita-mylar-emenda-cinta-de-lixa/
+https://robustaautomacoes.com/fitas-mylar/
+https://robustaautomacoes.com/granulacao-lixa-desbaste-acabamento/
+https://robustaautomacoes.com/marcas/
+https://robustaautomacoes.com/rodas-pg/
+https://robustaautomacoes.com/rolos/

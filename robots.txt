@@ -1,0 +1,9 @@
+# Robusta - regras de rastreamento das paginas publicas.
+User-agent: *
+Allow: /
+
+# Busca do ChatGPT. Esta regra e independente do GPTBot.
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://robustaautomacoes.com/sitemap.xml
