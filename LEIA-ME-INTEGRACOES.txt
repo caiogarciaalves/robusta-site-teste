@@ -1,0 +1,46 @@
+ROBUSTA — ATUALIZAÇÃO: SERVIÇOS DE TERCEIROS
+
+ARQUIVO PARA PUBLICAR
+politica-de-privacidade/index.html
+
+COMO ATUALIZAR NO GITHUB
+1. Faça uma cópia de segurança da versão atual do repositório.
+2. Extraia o ZIP no computador.
+3. Na raiz do repositório do site, mescle a pasta politica-de-privacidade
+   e substitua apenas o index.html que fica DENTRO dessa pasta.
+4. Não coloque esse index.html na raiz do site e não apague outras pastas.
+   Não envie o ZIP inteiro ao GitHub. Este LEIA-ME não precisa ser publicado.
+5. Aguarde a publicação do GitHub Pages. Abra /politica-de-privacidade/
+   e atualize com Ctrl+F5 se ainda aparecer a versão anterior.
+
+O QUE MUDOU
+- Seção 7 detalha GitHub Pages, WhatsApp, Olist e Zoho Mail.
+- Inclui o encaminhamento, via Olist, dos dados necessários à logística
+  e à contabilidade, conforme confirmado pela empresa.
+- Inclui links para as políticas dos quatro fornecedores e informação
+  sobre a indicação de região de hospedagem do Zoho Mail.
+- Explica tratamento internacional sem presumir o país específico dos
+  registros da Robusta na Olist.
+- Ajusta duas passagens relacionadas da seção 4 para refletir o uso do
+  e-mail e das informações da venda, mantendo as demais seções.
+- Mantém os links de termos, trocas e privacidade e os textos anteriores
+  sobre nome opcional e ausência de campo de e-mail no formulário.
+
+LIMITES DA VERIFICAÇÃO
+O texto continua sendo rascunho para revisão de advogado.
+O domínio mail.zoho.com indica a região dos EUA segundo a documentação
+da Zoho; o painel individual da conta não foi acessado.
+As regiões específicas, suboperadores, regras de retenção e exclusão
+dos registros da Robusta na Olist precisam ser confirmados com o suporte
+e no contrato/anexo de proteção de dados aplicável à conta.
+As condições das transportadoras/Correios e da contabilidade não foram
+auditadas, e seus nomes não foram inventados.
+Este pacote altera somente o texto da página: não configura serviços,
+não instala rastreadores e não modifica DNS, e-mails ou backups.
+
+FONTES OFICIAIS CONSULTADAS EM 30/10/2026
+GitHub: https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement
+WhatsApp: https://www.whatsapp.com/legal/privacy-policy?lang=pt_br
+Olist: https://olist.com/seguranca-e-privacidade/politica-de-privacidade/
+Zoho: https://www.zoho.com/privacy.html
+Hospedagem Zoho Mail: https://www.zoho.com/mail/gdpr.html
