@@ -1,0 +1,37 @@
+ROBUSTA — BARRA DE PESQUISA
+
+O QUE FOI ADICIONADO
+- Campo de pesquisa com lupa à direita da faixa do menu no computador.
+- Pesquisa no cabeçalho em telas menores, ao lado do botão Menu no celular.
+- Página /busca/ com resultados para produtos, artigos e páginas do site.
+- Comparação sem diferenciar maiúsculas, minúsculas ou acentos; normalização de medidas como 915 x 100 e 915×100 e dos termos zircônio/zircônia.
+- Busca executada no navegador com um índice local dos textos publicados.
+- Mensagens para pesquisa vazia, nenhum resultado e falha de carregamento.
+- Texto na política de privacidade explicando a nova função. O aviso de rascunho jurídico foi mantido.
+
+COMO ATUALIZAR NO GITHUB
+1. Extraia o ZIP.
+2. Abra a raiz do repositório do site, onde estão assets e blog.
+3. Envie a pasta assets deste pacote, MESCLANDO com a existente. Não apague a pasta assets nem substitua seu conteúdo inteiro.
+4. Envie a pasta busca e atualize politica-de-privacidade/index.html, preservando a estrutura.
+5. O arquivo compartilhado assets/js/header.js é atualizado para acrescentar a barra nas páginas que já possuem o menu principal. A lógica anterior do menu foi preservada.
+6. Confirme as alterações e aguarde o GitHub Pages publicar.
+7. Atualize o navegador com Ctrl+F5. O cabeçalho é um arquivo compartilhado e o cache do navegador ou da hospedagem pode demorar alguns minutos para refletir a atualização.
+
+COMO TESTAR
+- Pesquise Mylar, 915x100, 915 x 100, zircônia e granulação.
+- Clique em um resultado e confira a página de destino.
+- No celular, confira o campo ao lado de Menu e a abertura do menu abaixo dele.
+- Teste uma palavra inexistente para ver a orientação de nenhum resultado.
+
+ATUALIZAÇÃO DO CONTEÚDO DA BUSCA
+O arquivo assets/data/busca-index.json contém os textos e endereços das páginas públicas comerciais e dos artigos disponíveis nesta atualização, além de atalhos para seções do catálogo.
+Quando novos produtos ou artigos forem publicados, o índice da busca também deve ser atualizado. Esta busca não descobre novas páginas automaticamente.
+O Mapa do Pedido e as páginas jurídicas não foram incluídos como resultados de pesquisa.
+A página de resultados usa noindex,follow para evitar indexar pesquisas internas no Google. As 21 páginas já liberadas para indexação não foram alteradas por este pacote. robots.txt, sitemap.xml e o arquivo de verificação do Google não são substituídos.
+
+PRESERVAÇÃO DO SITE
+Este ZIP não contém index.html na raiz. O arquivo index.html da pasta busca deve ficar dentro dessa pasta.
+Nenhuma página de produto, artigo ou página inicial foi substituída.
+Não há alteração de DNS, Zoho Mail, contas, pagamentos ou rastreamento.
+As páginas independentes de links E-commerce e Mapa do Pedido mantêm o layout atual, sem receber o menu institucional.
