@@ -1,0 +1,41 @@
+ROBUSTA — ATUALIZAÇÃO 1: POLÍTICA DE PRIVACIDADE
+Preparado em 30/10/2026
+
+COMO ATUALIZAR NO GITHUB
+1. Extraia este ZIP no seu computador.
+2. Abra o repositório do site no GitHub, na mesma raiz onde já ficam o index.html e a pasta assets.
+3. Use Add file > Upload files.
+4. Envie o CONTEÚDO extraído (index.html, as pastas e este LEIA-ME). Não envie o ZIP nem uma pasta externa envolvendo tudo.
+5. Confirme a atualização dos arquivos existentes, mantendo a estrutura de pastas. Faça o commit.
+6. Aguarde a publicação do GitHub Pages. Depois abra:
+   https://robustaautomacoes.com/politica-de-privacidade/
+7. Confira os links no rodapé da home, nas páginas internas, no E-commerce, no Mapa do Pedido e junto ao formulário de Automações.
+
+IMPORTANTE PARA PRESERVAR O SITE
+Este é um pacote parcial de atualização. Adicione/substitua os arquivos pelo upload; não exclua o conteúdo do repositório e não substitua toda a pasta assets por uma pasta vazia.
+O index.html da raiz continua sendo a página inicial da Robusta. A política fica dentro da pasta politica-de-privacidade.
+As pastas do ZIP contêm apenas os HTMLs atualizados e o CSS novo. As imagens, os demais estilos e os scripts já existentes continuam sendo necessários.
+Se usar uma ferramenta local para copiar arquivos, escolha mesclar/substituir arquivos, preservando os demais arquivos das pastas.
+
+O QUE MUDOU
+- Link de privacidade acrescentado às 17 páginas públicas identificadas, incluindo Mapa do Pedido e E-commerce.
+- Aviso do formulário em Automações atualizado para descrever o link do WhatsApp e apontar para a política.
+- Nova página com os dados fornecidos da Robusta e estilos próprios.
+- Cabeçalho, produtos, imagens, outros textos e scripts preservados.
+- Nenhuma mudança em domínio, DNS, CNAME, hospedagem de e-mail ou dados de acesso.
+- O comportamento e os campos do formulário permanecem iguais.
+
+SITUAÇÃO DO TEXTO LEGAL
+O conteúdo é um RASCUNHO PARA REVISÃO DE ADVOGADO. Essa identificação aparece na própria página. Não representa certificação de conformidade com a LGPD.
+As notas entre colchetes do texto anterior foram retiradas da página pública. Os assuntos sem confirmação foram descritos de forma limitada, sem inventar prazos ou medidas internas.
+Antes de adotar a política como definitiva, confirmar:
+1. Prazos/critérios operacionais de retenção e tratamento de backups no WhatsApp e no Olist.
+2. Dados efetivamente registrados no Olist e procedimento de atendimento aos direitos dos titulares.
+3. Medidas internas de segurança e fornecedores do atendimento por e-mail (incluindo Zoho Mail, se mantido).
+4. Inventário completo de cookies e requisições, infraestrutura e eventuais transferências internacionais de dados.
+5. Regras de visibilidade/conservação de dados do grupo Mapa do Pedido e tratamento dos dados das vendas externas.
+6. Bases legais de cada operação.
+A publicação da página e dos links resolve sua disponibilidade técnica; não resolve automaticamente essas pendências operacionais.
+
+COMO DESFAZER
+O commit feito no GitHub registra esta atualização. Em caso de problema, reverta esse commit ou restaure os arquivos da versão anterior do seu repositório.
