@@ -1,0 +1,31 @@
+ROBUSTA — 5 NOVOS ARTIGOS DO BLOG
+
+O QUE ESTE PACOTE CONTÉM
+- A página blog/index.html atualizada com cinco novos cartões antes dos dois artigos antigos.
+- Cinco novas páginas, com os textos aprovados, as fotos geradas e o visual dos artigos existentes.
+- Um CSS exclusivo das novas páginas e cinco imagens WebP em assets/imagens/artigos/.
+- Cabeçalho, rodapé, identificação da empresa e links legais preservados a partir do site publicado.
+
+COMO ATUALIZAR NO GITHUB
+1. Faça um backup do repositório ou confirme que as alterações atuais estão salvas no histórico.
+2. Extraia o ZIP no computador.
+3. Abra o repositório do site na raiz, onde ficam as pastas assets e blog.
+4. Envie as pastas deste pacote, preservando seus caminhos. Mescle as pastas existentes; não as apague.
+5. Substitua blog/index.html. Os outros arquivos do pacote são novos.
+6. Não coloque os arquivos index.html dos artigos diretamente na raiz. Cada um deve ficar dentro de sua própria pasta.
+7. Confirme as alterações e aguarde a publicação do GitHub Pages.
+8. Abra /blog/, atualize a página sem cache e teste os sete cartões, as imagens e os sumários.
+
+ATENÇÃO AO ESCOPO
+Este ZIP não contém index.html na raiz, não substitui a página inicial e não altera os dois artigos antigos.
+Não exclua nem substitua por inteiro a pasta assets; acrescente os arquivos nas subpastas correspondentes.
+Não há alteração de domínio, DNS, Zoho Mail, formulários, scripts globais ou ferramentas de rastreamento.
+As configurações atuais de indexação (noindex,nofollow) foram mantidas. A liberação para buscadores, o sitemap e o robots.txt ficam para a etapa de SEO discutida anteriormente.
+Nenhuma publicação é feita automaticamente por este pacote.
+
+PÁGINAS NOVAS
+https://robustaautomacoes.com/cinta-oxido-de-aluminio-ou-zirconio/
+https://robustaautomacoes.com/como-medir-cinta-de-lixa/
+https://robustaautomacoes.com/fita-mylar-emenda-cinta-de-lixa/
+https://robustaautomacoes.com/granulacao-lixa-desbaste-acabamento/
+https://robustaautomacoes.com/encomendar-cinta-de-lixa-sob-medida/
