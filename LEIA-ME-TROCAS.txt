@@ -1,0 +1,35 @@
+ROBUSTA — ATUALIZAÇÃO 5: TROCAS, DEVOLUÇÕES E CANCELAMENTOS
+Preparado em 30/10/2026
+
+COMO PUBLICAR NO GITHUB
+1. Extraia este ZIP no computador.
+2. Abra a raiz do repositório do site no GitHub (onde já ficam index.html e assets).
+3. Clique em Add file > Upload files.
+4. Envie o CONTEÚDO extraído: index.html, pastas das páginas e este LEIA-ME. Não envie o ZIP nem uma pasta externa envolvendo tudo.
+5. Mantenha a estrutura de pastas e confirme a atualização dos arquivos existentes. Faça o commit.
+6. Aguarde o GitHub Pages publicar e confira:
+   https://robustaautomacoes.com/trocas-e-devolucoes/
+7. Confira os links nos rodapés da home, páginas internas, Política de privacidade, Termos, E-commerce e Mapa do Pedido.
+
+PRESERVAÇÃO DO SITE
+Este é um pacote parcial de atualização. Mescle as pastas e substitua apenas os arquivos incluídos. Não apague pastas nem os demais arquivos do repositório.
+O index.html da raiz continua sendo a página inicial da Robusta; a política nova fica na pasta trocas-e-devolucoes.
+A nova página reutiliza os CSS já publicados em assets/css, principalmente privacidade.css. A pasta assets existente precisa ser mantida.
+
+O QUE MUDOU
+- Nova página com os 9 tópicos apresentados na conversa, com atendimento pelo WhatsApp nas compras diretas.
+- Canal dos marketplaces mantido para pedidos dessas plataformas, com orientação adicional pelo WhatsApp.
+- Link da nova política nos rodapés das 19 páginas existentes e na própria página nova.
+- Termos atualizados para apontar para a política e esclarecer o atendimento pelo WhatsApp. O e-mail já divulgado permanece identificado para assuntos de privacidade.
+- Política de privacidade ajustada para destacar o WhatsApp e manter o e-mail anterior como alternativa para dados pessoais. Logo local e formulário com e-mail opcional preservados a partir da versão publicada.
+- Sem alterações em imagens, CSS, JavaScript, DNS, CNAME ou e-mail. Sem instalação de analytics ou pixels.
+
+REVISÃO JURÍDICA E ATENDIMENTO
+O texto é RASCUNHO PARA REVISÃO DE ADVOGADO, como indicado na página.
+Os procedimentos divulgados precisam corresponder ao atendimento real. O canal é o WhatsApp; o método concreto de postagem/coleta é orientado no atendimento, sem promessa de uma modalidade fixa.
+O endereço de devolução foi confirmado pelo responsável: Rua Marechal Deodoro, 6-60, Parque Hipódromo, Bauru/SP, CEP 17033-340.
+Os direitos relativos a defeitos não se limitam ao prazo de arrependimento; produtos sob medida não recebem exclusão automática de direitos.
+A publicação das informações não certifica conformidade jurídica integral nem substitui a execução do atendimento descrito.
+
+COMO DESFAZER
+Se necessário, reverta o commit desta atualização no GitHub para recuperar a versão anterior.
