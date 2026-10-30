@@ -50,31 +50,25 @@
       }
 
       var campoNome = document.getElementById("ra-auto-nome");
-      var campoEmail = document.getElementById("ra-auto-email");
       var campoMensagem = document.getElementById("ra-auto-mensagem");
       var botao = formulario.querySelector("button[type=submit]");
 
-      [campoNome, campoMensagem].forEach(function (campo) {
-        campo.addEventListener("input", function () { campo.setCustomValidity(""); });
-      });
+      campoMensagem.addEventListener("input", function () { campoMensagem.setCustomValidity(""); });
 
       formulario.addEventListener("submit", function (evento) {
         evento.preventDefault();
 
         var nome = campoNome.value.trim();
-        var email = campoEmail.value.trim();
         var mensagem = campoMensagem.value.trim();
 
-        campoNome.setCustomValidity(nome ? "" : "Informe seu nome.");
         campoMensagem.setCustomValidity(mensagem ? "" : "Escreva sua mensagem.");
         if (!formulario.reportValidity()) return;
 
         var partes = [
           "Olá! Entrei em contato pelo site da Robusta Automações.",
-          "",
-          "Nome: " + nome
+          ""
         ];
-        if (email) partes.push("E-mail: " + email);
+        if (nome) partes.push("Nome: " + nome);
         partes.push("Mensagem: " + mensagem);
 
         var linkWhatsApp = document.createElement("a");
