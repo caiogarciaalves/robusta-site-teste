@@ -49,23 +49,36 @@
         });
       }
 
+      var campoNome = document.getElementById("ra-auto-nome");
+      var campoEmail = document.getElementById("ra-auto-email");
+      var campoMensagem = document.getElementById("ra-auto-mensagem");
+      var botao = formulario.querySelector("button[type=submit]");
+
+      [campoNome, campoMensagem].forEach(function (campo) {
+        campo.addEventListener("input", function () { campo.setCustomValidity(""); });
+      });
+
       formulario.addEventListener("submit", function (evento) {
         evento.preventDefault();
 
-        var nome = document.getElementById("ra-auto-nome").value.trim();
-        var email = document.getElementById("ra-auto-email").value.trim();
-        var mensagem = document.getElementById("ra-auto-mensagem").value.trim();
+        var nome = campoNome.value.trim();
+        var email = campoEmail.value.trim();
+        var mensagem = campoMensagem.value.trim();
 
-        var texto = [
+        campoNome.setCustomValidity(nome ? "" : "Informe seu nome.");
+        campoMensagem.setCustomValidity(mensagem ? "" : "Escreva sua mensagem.");
+        if (!formulario.reportValidity()) return;
+
+        var partes = [
           "Olá! Entrei em contato pelo site da Robusta Automações.",
           "",
-          "Nome: " + nome,
-          "E-mail: " + email,
-          "Mensagem: " + mensagem
-        ].join("\n");
+          "Nome: " + nome
+        ];
+        if (email) partes.push("E-mail: " + email);
+        partes.push("Mensagem: " + mensagem);
 
         var linkWhatsApp = document.createElement("a");
-        linkWhatsApp.href = "https://wa.me/" + telefone + "?text=" + encodeURIComponent(texto);
+        linkWhatsApp.href = "https://wa.me/" + telefone + "?text=" + encodeURIComponent(partes.join("\n"));
         linkWhatsApp.target = "_blank";
         linkWhatsApp.rel = "noopener noreferrer";
         linkWhatsApp.setAttribute("aria-hidden", "true");
@@ -73,6 +86,10 @@
         linkWhatsApp.click();
         linkWhatsApp.remove();
       });
+
+      // Habilita a continuação somente após registrar o encaminhamento acima.
+      // Sem o script, o botão desativado evita o envio nativo dos campos pela URL.
+      botao.disabled = false;
 
       atualizarHorario();
       window.setInterval(atualizarHorario, 60000);

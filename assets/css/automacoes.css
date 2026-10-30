@@ -576,3 +576,11 @@
     }
   
 .ra-auto h2{text-transform:none;letter-spacing:normal}.ra-auto .ra-auto__titulo{text-transform:uppercase}.ra-auto__chamada h1{margin:0}
+
+/* Identificação persistente e foco dos campos de contato. */
+.ra-auto__form label > span{display:block;margin-bottom:8px;color:#153f4d;font-size:14px;font-weight:600;line-height:1.5}
+.ra-auto__form .ra-auto__campo:focus-visible{outline:2px solid #235e63;outline-offset:3px}
+.ra-auto__enviar{padding:16px 20px;line-height:1.45}
+.ra-auto__enviar:disabled{opacity:.65;cursor:default;transform:none}
+.ra-auto__sem-script{font-size:14px;line-height:1.6;color:#29383d}
+.ra-auto__sem-script a{color:#235e63;text-decoration:underline}

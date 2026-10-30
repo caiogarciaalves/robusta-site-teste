@@ -1,0 +1,37 @@
+ROBUSTA — ATUALIZAÇÃO 4: FORMULÁRIO DE CONTATO
+Preparado em 30/10/2026
+
+COMO PUBLICAR
+1. Extraia este ZIP no computador.
+2. Abra a raiz do repositório do site no GitHub, onde ficam index.html e assets.
+3. Clique em Add file > Upload files e envie as pastas extraídas automacoes, assets e politica-de-privacidade, preservando a estrutura, além deste LEIA-ME.
+4. Confirme a atualização dos arquivos e faça o commit. Não envie o ZIP nem uma pasta externa envolvendo tudo.
+5. Aguarde o GitHub Pages publicar. Abra https://robustaautomacoes.com/automacoes/ e use Ctrl+F5.
+
+ESTE PACOTE CONTÉM APENAS 4 ARQUIVOS DO SITE E AS INSTRUÇÕES
+- automacoes/index.html
+- assets/css/automacoes.css
+- assets/js/automacoes.js
+- politica-de-privacidade/index.html
+Mescle as pastas e substitua apenas os arquivos incluídos. Não apague as pastas ou o restante do repositório. A página inicial não precisa ser substituída nesta atualização.
+
+O QUE MUDOU
+- E-mail opcional, identificado visualmente e omitido do texto enviado ao WhatsApp quando não preenchido.
+- Nome e mensagem continuam obrigatórios.
+- Botão Continuar no WhatsApp.
+- Aviso de finalidade/encaminhamento com link para a política.
+- Rótulos visíveis e associados aos campos; foco dos campos mais visível.
+- Aviso da política coerente com o campo opcional.
+- Se o script não carregar, o botão não envia os campos pela URL da página. Um link direto de atendimento é apresentado quando o navegador está sem JavaScript.
+- Versão dos arquivos CSS e JS atualizada no HTML para evitar o uso de cópias antigas em cache.
+- Demais conteúdos, logo local, links de termos e privacidade preservados.
+- Sem analytics, pixels, inscrições em publicidade, mudanças de DNS ou e-mail.
+
+CONFERÊNCIA APÓS PUBLICAR
+Preencha nome e mensagem, deixe e-mail em branco e confirme que a opção de continuar está disponível. Quando usar o botão, confira o texto no WhatsApp antes de enviar a mensagem.
+Se decidir informar e-mail, o campo deve conter um endereço válido.
+A abertura do WhatsApp já envolve esse serviço e inclui os dados preenchidos no link; a mensagem à Robusta depende da confirmação no aplicativo.
+Os textos legais continuam como rascunhos para revisão jurídica; esta atualização não certifica conformidade integral com a LGPD.
+
+PARA DESFAZER
+Reverta o commit desta atualização no GitHub para restaurar os arquivos anteriores.
