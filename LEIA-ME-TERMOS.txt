@@ -1,0 +1,36 @@
+ROBUSTA — ATUALIZAÇÃO 2: TERMOS DE USO E INFORMAÇÕES DE COMPRA
+Preparado em 30/10/2026
+
+PUBLICAÇÃO NO GITHUB
+1. Extraia este ZIP no computador.
+2. No GitHub, abra a raiz do repositório do site (a pasta onde já ficam index.html e assets).
+3. Clique em Add file > Upload files.
+4. Arraste o CONTEÚDO extraído: index.html, pastas e este LEIA-ME. Não envie o ZIP nem uma pasta externa envolvendo os arquivos.
+5. Mantenha os nomes e a estrutura das pastas. Confirme a atualização dos arquivos existentes e faça o commit.
+6. Aguarde o GitHub Pages publicar. Abra:
+   https://robustaautomacoes.com/termos-de-uso/
+7. Confira os links de Termos de uso e de Política de privacidade no rodapé.
+
+PRESERVE OS DEMAIS ARQUIVOS
+Este é um pacote parcial de atualização, para mesclar/adicionar/substituir ARQUIVOS. Não apague o repositório e não exclua pastas antes de enviar.
+As pastas do ZIP não contêm todas as imagens, CSS ou scripts do site: os arquivos já publicados continuam necessários.
+O index.html da raiz continua sendo a página inicial da Robusta. Os termos ficam dentro da pasta termos-de-uso.
+O conteúdo da atualização de privacidade anterior está preservado; este pacote mantém também a página e o CSS de privacidade.
+Se copiar pelo computador, escolha mesclar as pastas, preservando os arquivos que não fazem parte deste pacote.
+
+ALTERAÇÕES
+- Nova página Termos de uso e informações de compra, com os 8 tópicos apresentados na conversa.
+- Link adicionado às 18 páginas existentes, incluindo a política de privacidade, o E-commerce e o Mapa do Pedido.
+- A nova página também contém links de termos e privacidade.
+- Reutilização dos estilos da página de privacidade, mantidos sem alteração.
+- Demais conteúdos, imagens, formulários e scripts preservados.
+- Sem mudanças em domínio, DNS, CNAME ou e-mails.
+
+REVISÃO DO TEXTO
+O texto é RASCUNHO PARA REVISÃO DE ADVOGADO, como indicado na própria página.
+As condições de orçamento/pedido descritas devem corresponder ao atendimento real pelo WhatsApp.
+As regras detalhadas de trocas, cancelamentos e arrependimento ainda serão tratadas no item 5 da revisão do site. Esta atualização não presume que esse item já esteja resolvido.
+Esta página não cria cadastro, login, assinatura ou cobrança recorrente.
+
+COMO DESFAZER
+Se necessário, reverta o commit desta atualização no GitHub para restaurar a versão anterior do repositório.
