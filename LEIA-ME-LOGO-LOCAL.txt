@@ -1,0 +1,34 @@
+ROBUSTA — ATUALIZAÇÃO 3: LOGO NOS ASSETS
+Preparado em 30/10/2026
+
+COMO PUBLICAR
+1. Extraia este ZIP no computador.
+2. Abra a raiz do repositório do site no GitHub (onde já ficam index.html e assets).
+3. Clique em Add file > Upload files.
+4. Envie o CONTEÚDO extraído, mantendo as pastas e nomes: index.html, pastas das páginas, assets e este LEIA-ME.
+5. Confirme o commit e aguarde a publicação do GitHub Pages.
+6. Atualize o site com Ctrl+F5 e confira a logo da home, das páginas internas e do E-commerce.
+
+O QUE MUDOU
+- A mesma imagem PNG utilizada pelo site foi copiada do endereço público do Drive para assets/imagens/robusta-logo.png.
+- As 18 páginas que carregavam essa logo agora usam o arquivo local.
+- Os atributos de alternativa que usavam o arquivo antigo foram removidos dos elementos substituídos.
+- Tamanho, posicionamento, estilos e texto alternativo da logo foram preservados.
+- A política de privacidade passou a descrever a logo hospedada no próprio site e a ausência de ferramentas de visitas, cliques ou anúncios informada pela empresa.
+- O Mapa do Pedido já utiliza sua própria logo local e não precisou ser alterado.
+- Os links de termos e privacidade e os demais conteúdos foram preservados a partir do site publicado.
+
+IMPORTANTE
+Este é um pacote parcial. Mescle as pastas e substitua somente os arquivos incluídos; não apague pastas nem os demais arquivos do repositório.
+A pasta assets deste ZIP contém somente a logo nova. As imagens, os CSS e os scripts já existentes continuam necessários.
+Não envie o ZIP nem uma pasta externa envolvendo todos os arquivos.
+O index.html da raiz continua sendo a home da Robusta.
+Nenhuma ferramenta de analytics, pixel, banner de consentimento ou rastreamento foi instalada.
+Domínio, DNS, CNAME e e-mails não foram alterados.
+A remoção da conexão com o Drive para exibir a logo não equivale a certificar a ausência de qualquer tratamento técnico na hospedagem ou nos serviços acessados por links.
+
+REVISÃO JURÍDICA
+A política de privacidade e os termos continuam com a identificação de rascunho para revisão jurídica já publicada. As pendências operacionais anteriores continuam aplicáveis.
+
+COMO DESFAZER
+Se necessário, reverta o commit desta atualização no GitHub para restaurar os arquivos anteriores.
