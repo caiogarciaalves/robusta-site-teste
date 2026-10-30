@@ -1,0 +1,31 @@
+ROBUSTA — ATUALIZAÇÃO: COLETA MÍNIMA DE DADOS
+
+1. Faça uma cópia de segurança do repositório antes de atualizar.
+2. Extraia este ZIP no computador.
+3. Adicione/substitua os arquivos nas mesmas pastas da raiz do repositório:
+   automacoes/index.html
+   assets/js/automacoes.js
+   politica-de-privacidade/index.html
+4. Mescle as pastas. Não apague o site, a pasta assets ou as demais páginas.
+   Não substitua o index.html da raiz pelo index.html de uma subpasta.
+   Este LEIA-ME não precisa ser publicado. Não envie o ZIP inteiro ao GitHub.
+5. Aguarde a publicação do GitHub Pages e confira /automacoes/ e
+   /politica-de-privacidade/. Se necessário, atualize com Ctrl+F5.
+
+ALTERAÇÕES
+- Nome opcional e remoção do campo de e-mail no formulário.
+- Mensagem obrigatória; nome vazio não aparece no texto do WhatsApp.
+- Orientação para evitar dados desnecessários no formulário.
+- Política alinhada aos campos e à coleta de nome, CPF/CNPJ e endereço
+  durante as vendas diretas pelo WhatsApp, conforme informado pela empresa.
+- Links de trocas, termos e privacidade do pacote anterior preservados.
+
+VERIFICAÇÃO APÓS PUBLICAR
+- O formulário deve permitir continuar sem nome, com mensagem preenchida.
+- A mensagem é confirmada pelo visitante no WhatsApp.
+- Uma mensagem vazia ou apenas com espaços deve ser bloqueada.
+- Confira os links de privacidade, termos e trocas no rodapé.
+
+O texto da política continua sendo rascunho para revisão de advogado.
+Este pacote não certifica os dados armazenados na Olist, WhatsApp ou backups,
+nem altera os registros existentes nesses serviços.
