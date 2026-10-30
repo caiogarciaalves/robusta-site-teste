@@ -1,0 +1,33 @@
+ROBUSTA — COMPLEMENTO DE INDEXAÇÃO
+
+O Google Search Console foi verificado e o sitemap enviado com sucesso.
+A página inicial e o blog passaram no teste ao vivo, e foi solicitada a indexação dessas duas páginas.
+Na conferência das 21 URLs do sitemap, algumas páginas ainda foram recebidas com a meta noindex,nofollow.
+Este pacote complementa a atualização anterior somente nessas páginas.
+
+COMO PUBLICAR
+1. Extraia o ZIP.
+2. Abra a raiz do repositório do site no GitHub.
+3. Envie TODAS as pastas deste pacote, mantendo cada index.html na sua respectiva subpasta.
+4. Mescle as pastas e substitua os index.html incluídos. Não exclua as pastas antigas.
+5. Não mova nenhum index.html para a raiz. Este ZIP não contém index.html principal.
+6. Confirme as alterações e aguarde a publicação do GitHub Pages.
+7. Avise no chat para conferir novamente as URLs e continuar a inspeção do artigo no Google.
+
+ALTERAÇÃO ÚNICA
+Nos arquivos HTML incluídos, somente a meta robots passa de noindex,nofollow para index,follow.
+O restante de cada arquivo foi preservado exatamente a partir da versão publicada consultada nesta etapa.
+Não há imagens, CSS, JavaScript, DNS, configurações de e-mail, robots.txt ou sitemap.xml neste pacote.
+Mantenha no repositório o arquivo googled2b672f28a1c64af.html para conservar a verificação do Google.
+
+PÁGINAS INCLUÍDAS
+https://robustaautomacoes.com/catalogo/
+https://robustaautomacoes.com/cinta-oxido-de-aluminio-ou-zirconio/
+https://robustaautomacoes.com/cintas-de-lixa/
+https://robustaautomacoes.com/como-medir-cinta-de-lixa/
+https://robustaautomacoes.com/disco-rokit/
+https://robustaautomacoes.com/discos-flap/
+https://robustaautomacoes.com/distribuidores/
+https://robustaautomacoes.com/e-commerce/
+https://robustaautomacoes.com/encomendar-cinta-de-lixa-sob-medida/
+https://robustaautomacoes.com/fita-mylar-emenda-cinta-de-lixa/
